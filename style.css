@@ -96,7 +96,7 @@ a:hover {
 }
 
 .picture_second {
-    background-image: url("images/picture_second.png");
+    background-image: url("../images/picture_second.png");
     height: 483px;
     font-style: italic;
 }
