@@ -1,5 +1,26 @@
 body {
     margin: 0;
+    padding-top: 84px;
+}
+
+#The-problem, #Pied-piper-coin, #team, #top {
+    padding-top: 84px;
+    margin-top: -84px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+}
+
+a:link, a:visited, a:focus {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: black;
+}
+
+.header__logo:hover {
+    filter: brightness(0);
 }
 
 .big-element {
@@ -9,7 +30,7 @@ body {
 }
 
 .text {
-    /* Установить шрифт Roboto */
+    font-family: 'Roboto';
     font-size: 32px;
 }
 
@@ -17,21 +38,33 @@ body {
     color: #007765;
     font-size: 64px;
     text-align: center;
+    font-weight: normal;
 }
 
 .header {
     background-color: #007765;
     justify-content: space-between;
     height: 84px;
+    position: fixed;
+    top: 0;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    margin-left: 55px;
+    align-items: center;
 }
 
 .header__menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 55px;
 }
 
 .menu__text {
+    margin: 0.3rem;
     font-size: 24px;
     color: #FFFFFF;
 }
@@ -71,20 +104,71 @@ body {
 .picture_second__text {
     font-size: 48px;
     color: #FFFFFF;
-    height: 228px;
-    width: 893px;
+}
+
+.logo_text {
+    width: 114px;
+    height: 114px;
+    float: left;
+    margin-right: 2rem;
+}
+
+.team__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper-employees {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+.employees {
+    margin: 3.5rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.man {
+    height: 168px;
+    width: 168px;
+}
+
+.text_photo {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.text_header.text_photo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .footer {
     background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 176px;
 }
 
-.footer__text {
+.footer__text.content {
+    padding: 0px;
+    text-align: center;
     color: #FFFFFF;
+    font-size: 18px;
+    max-width: 540px;
 }
 
 .content {
     max-width: 1219px;
-    padding: 0px 55px;
+    padding: 3rem 55px;
     box-sizing: border-box;
 }
