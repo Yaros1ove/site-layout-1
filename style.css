@@ -78,7 +78,7 @@ a:hover {
 }
 
 .picture_first {
-    background-image: url("images/picture_first.png");
+    background-image: url("../images/picture_first.png");
     height: 403px;
 }
 
