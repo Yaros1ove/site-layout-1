@@ -78,7 +78,7 @@ a:hover {
 }
 
 .picture_first {
-    background-image: url("/images/picture_first.png");
+    background-image: url("../images/picture_first.png");
     height: 403px;
 }
 
@@ -96,7 +96,7 @@ a:hover {
 }
 
 .picture_second {
-    background-image: url("/images/picture_second.png");
+    background-image: url('../images/picture_second.png');
     height: 483px;
     font-style: italic;
 }
